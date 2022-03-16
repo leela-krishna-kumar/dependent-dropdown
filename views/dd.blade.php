@@ -105,6 +105,7 @@
 							},
 							success: function (result) {
 								$('#' + dependent).html(result);
+								$('#' + dependent).selectpicker('refresh');
 
 							}
 
